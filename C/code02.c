@@ -13,6 +13,6 @@ int main () {
     tot_discount = price * (discount/100);
     final_value = price - tot_discount;
 
-    printf(" the final value: %2.2f ", final_value);
+    printf(" the final value: %.2f ", final_value);
 
 }
