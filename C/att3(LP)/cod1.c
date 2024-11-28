@@ -8,14 +8,11 @@ int main () {
     printf("Type your salary:");
     scanf("%f", &wage);
     printf("Type the increase:");
-    scanf("%f", &increase);
+    scanf("%f", &percent);
 
-    increase = wage * (increase/100);
+    increase = wage * (percent/100);
     new_salary = wage + increase;
 
     printf("The new salary: %f", new_salary);
-
-
-
 
 }
