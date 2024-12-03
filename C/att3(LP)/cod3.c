@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main () {
 
     float D, AS, T;
@@ -13,6 +12,5 @@ int main () {
     T = D/AS;
 
     printf("the time is: %.1f hours", T);
-
 
 }

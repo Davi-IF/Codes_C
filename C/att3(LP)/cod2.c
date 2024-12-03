@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main () {
 
     float price, discount, tot_discount, final_value;

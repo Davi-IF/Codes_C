@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main () {
 
     int cig_day, qtd_days, lost_days;
@@ -18,6 +17,5 @@ int main () {
     lost_days = lost_minutes / 1440;
 
     printf("lost days: %i dias", lost_days);
-
 
 }

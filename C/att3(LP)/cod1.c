@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main () {
 
     float wage, percent, increase, new_salary;
