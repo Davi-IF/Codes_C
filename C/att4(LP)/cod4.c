@@ -2,15 +2,25 @@
 
 int main () {
 
-    int v_house, salary, yearsp;
+    float v_house, salary, prest, max_prest;
+    int  months, yearsp;
 
     printf("type the value of house:");
-    scanf("%i", &v_house);
+    scanf("%f", &v_house);
     printf("type the salary:");
-    scanf("%i", &salary);
+    scanf("%f", &salary);
     printf("type the yearsp:");
     scanf("%i", &yearsp);
 
+    months = yearsp * 12;
+    prest = v_house / months;
+    max_prest = salary * 0.30;
 
-csedf
+    if(prest <= max_prest){
+        printf("loan allowed!");
+    }else{
+        printf("loan not allowed!");
+    }
+
+    return 0;
 }
